@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "394678832285",
+    "project_id": "analise-satisfacao-rt",
+    "storage_bucket": "analise-satisfacao-rt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394678832285:android:df20982b0877e141761874",
+        "android_client_info": {
+          "package_name": "com.example.analisesatisfacao_rt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo-qRzNuGJ5X1r8PXpOlUJKlp3VAWl5OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

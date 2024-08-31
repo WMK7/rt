@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/azul"
+    tools:context=".view.ViewRecuperar_Senha">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_cadastrar_sala"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"/>
+
+
+    <EditText
+        android:id="@+id/edit_email_recuperar_Senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_gerar_sala"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+    <EditText
+        android:id="@+id/edit_tuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_turma"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:id="@+id/bt_RecuperarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_gerar_sala"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:backgroundTint="@color/Verdefundo"/>
+
+</LinearLayout>

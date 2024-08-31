@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/azul"
+    tools:context=".view.ViewLogin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_login"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analise de Satisfação"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/edit_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_senha"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:inputType="numberPassword"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/recuperar_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Text_recuperar_senha"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="25dp"/>
+
+    <Button
+        android:id="@+id/bt_entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_login"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/Verdefundo"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/nao_cadastrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="@string/nao_sou_cadastrado"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/termo_de_uso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/termos"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="end"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="25dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AnaliseSatisfacao_RT</string>
+
+
+    <string name="titulo_login">Bem Vindo!</string>
+    <string name="titulo_form_cadastro">Cadastrar!</string>
+    <string name="subTitulo_form_cadastro">IF Forms</string>
+
+    <string name="nao_sou_cadastrado">Não sou cadastrado</string>
+    <string name="termos">Concordo com os termos</string>
+
+    <string name="hint_email">Email:</string>
+    <string name="hint_nome">Nome:</string>
+    <string name="hint_senha">Senha: numero de sua matricula</string>
+    <string name="hint_gerar_sala">Codido da Sala</string>
+    <string name="hint_anotacao">Anotação...</string>
+    <string name="hint_turma">Criar Turma! ex: 1A</string>
+
+    <string name="bt_cadastro">Cadastrar</string>
+    <string name="bt_login">Entrar</string>
+    <string name="bt_lista_anotacao">Anotações</string>
+    <string name="bt_recuperar_senha">Recuperar Senha</string>
+    <string name="bt_gerar_sala">Criar sala</string>
+    <string name="bt_proximo">Proximo</string>
+    <string name="bt_deslogar">Sair</string>
+
+
+    <string name="dialog_text_carregando">Carregando...</string>
+
+
+    <string name="Text_recuperar_senha">Esqueci minha senha!</string>
+    <string name="Text_Tangibilidade">Tangibilidade</string>
+    <string name="text_questão">Questões</string>
+    <string name="texto_cadastrar_sala">Criar Sala</string>
+</resources>

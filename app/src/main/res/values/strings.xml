@@ -27,9 +27,15 @@
 
     <string name="dialog_text_carregando">Carregando...</string>
 
+    <string name="perguntas">Aqui aparecerão as pergunstas</string>
+
 
     <string name="Text_recuperar_senha">Esqueci minha senha!</string>
     <string name="Text_Tangibilidade">Tangibilidade</string>
     <string name="text_questão">Questões</string>
     <string name="texto_cadastrar_sala">Criar Sala</string>
+
+
+
+
 </resources>

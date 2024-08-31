@@ -28,6 +28,20 @@
         android:layout_gravity="center"/>
 
     <EditText
+        android:id="@+id/cd_sala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_gerar_sala"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
         android:id="@+id/edit_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +51,7 @@
         android:maxLines="1"
         android:inputType="textEmailAddress"
         android:padding="15dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"/>
 
@@ -66,6 +80,7 @@
         android:layout_gravity="end"
         android:layout_marginEnd="25dp"/>
 
+
     <Button
         android:id="@+id/bt_entrar"
         android:layout_width="match_parent"
@@ -76,7 +91,7 @@
         android:padding="12dp"
         android:textColor="@color/white"
         android:backgroundTint="@color/Verdefundo"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"/>
 

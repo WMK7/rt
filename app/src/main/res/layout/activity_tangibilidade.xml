@@ -8,10 +8,12 @@
     android:background="@color/azul"
     tools:context=".view.ViewTangibilidade">
 
+
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="56dp"
         android:text="Tangibilidade"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -19,40 +21,39 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.36" />
+        app:layout_constraintGuide_percent="0.32" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.6" />
+        app:layout_constraintGuide_percent="0.68" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.32" />
+        app:layout_constraintGuide_percent="0.28" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="553dp" />
+        app:layout_constraintGuide_begin="612dp" />
 
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="132dp"
-        android:layout_height="349dp"
+        android:layout_width="110dp"
+        android:layout_height="341dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.358"
@@ -65,43 +66,43 @@
             android:layout_height="match_parent">
 
             <RadioButton
-                android:id="@+id/radioButton12"
+                android:id="@+id/realidade_rb1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="1" />
 
             <RadioButton
-                android:id="@+id/radioButton13"
+                android:id="@+id/realidade_rb2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="2" />
 
             <RadioButton
-                android:id="@+id/radioButton14"
+                android:id="@+id/realidade_rb3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="3" />
 
             <RadioButton
-                android:id="@+id/radioButton15"
+                android:id="@+id/realidade_rb4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="4" />
 
             <RadioButton
-                android:id="@+id/radioButton16"
+                android:id="@+id/realidade_rb5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="5" />
 
             <RadioButton
-                android:id="@+id/radioButton17"
+                android:id="@+id/realidade_rb6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="6" />
 
             <RadioButton
-                android:id="@+id/radioButton18"
+                android:id="@+id/realidade_rb7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="7" />
@@ -110,17 +111,34 @@
     </RadioGroup>
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_questão"
-        android:textSize="25dp"
+        android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.376" />
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/texto_pergunta"
+        android:layout_width="310dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="492dp"
+        android:maxLines="5"
+        android:text="Quão satisfeito você esta com os produtos e serviço que voce recebeu da instituição? "
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -128,16 +146,18 @@
         android:text="Expectativa"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintHorizontal_bias="0.203"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.763" />
+        app:layout_constraintVertical_bias="0.94" />
 
     <RadioGroup
-        android:layout_width="0dp"
-        android:layout_height="342dp"
+        android:id="@+id/radioGroup2"
+        android:layout_width="45dp"
+        android:layout_height="334dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
@@ -145,43 +165,43 @@
         app:layout_constraintVertical_bias="1.0">
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/rb1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="1" />
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/rb2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="2" />
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/rb3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="3" />
 
         <RadioButton
-            android:id="@+id/radioButton8"
+            android:id="@+id/rb4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="4" />
 
         <RadioButton
-            android:id="@+id/radioButton9"
+            android:id="@+id/rb5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="5" />
 
         <RadioButton
-            android:id="@+id/radioButton10"
+            android:id="@+id/rb6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="6" />
 
         <RadioButton
-            android:id="@+id/radioButton11"
+            android:id="@+id/r7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="7" />
@@ -193,12 +213,12 @@
         android:text="Realidade"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintHorizontal_bias="0.763"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.763" />
+        app:layout_constraintVertical_bias="0.967" />
 
     <Button
         android:layout_width="wrap_content"
@@ -212,5 +232,16 @@
         app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/ic_voltar"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

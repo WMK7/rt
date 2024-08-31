@@ -9,6 +9,13 @@
     android:background="@color/azul"
     tools:context=".view.ViewRecuperar_Senha">
 
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/ic_voltar" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,7 +35,7 @@
         android:background="@color/white"
         android:maxLines="1"
         android:padding="15dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"/>
     <EditText

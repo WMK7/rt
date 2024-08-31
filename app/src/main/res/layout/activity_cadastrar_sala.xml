@@ -9,11 +9,18 @@
     android:orientation="vertical"
     tools:context=".view.ViewCadastrar_sala">
 
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/ic_voltar" />
+
     <EditText
         android:id="@+id/edit_gerar_sala"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/hint_email"
+        android:hint="@string/hint_gerar_sala"
         android:background="@color/white"
         android:maxLines="1"
         android:padding="15dp"
@@ -25,7 +32,7 @@
         android:id="@+id/bt_RecuperarSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bt_recuperar_senha"
+        android:text="@string/bt_gerar_sala"
         android:textColor="@color/white"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
